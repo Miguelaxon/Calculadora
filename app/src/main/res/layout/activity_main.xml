@@ -30,6 +30,7 @@
         android:layout_marginTop="92dp"
         android:layout_marginBottom="80dp"
         android:ems="10"
+        android:layout_centerHorizontal="true"
         android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintStart_toEndOf="@+id/number1"
@@ -39,8 +40,8 @@
         android:id="@+id/button"
         android:layout_width="135dp"
         android:layout_height="75dp"
-        android:layout_marginStart="58dp"
-        android:layout_marginTop="217dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="216dp"
         android:text="@string/Sumar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -49,8 +50,8 @@
         android:id="@+id/button2"
         android:layout_width="135dp"
         android:layout_height="75dp"
-        android:layout_marginTop="217dp"
-        android:layout_marginEnd="55dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="52dp"
         android:text="@string/Restar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -91,7 +92,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/resultado"
         android:layout_width="300dp"
         android:layout_height="67dp"
         android:layout_marginStart="58dp"
@@ -103,4 +104,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/simbolo"
+        android:layout_width="33dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginBottom="73dp"
+        android:textIsSelectable="false"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/number2"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
