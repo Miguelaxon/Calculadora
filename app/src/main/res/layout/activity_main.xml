@@ -11,23 +11,24 @@
         android:layout_width="134dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
-        android:layout_marginTop="134dp"
+        android:layout_marginTop="92dp"
         android:layout_marginEnd="31dp"
-        android:layout_marginBottom="38dp"
+        android:layout_marginBottom="80dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toStartOf="@+id/number2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/number2"
         android:layout_width="134dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="134dp"
-        android:layout_marginBottom="38dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginBottom="80dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/button2"
@@ -39,20 +40,20 @@
         android:layout_width="135dp"
         android:layout_height="75dp"
         android:layout_marginStart="58dp"
-        android:layout_marginTop="38dp"
-        android:text="Button"
+        android:layout_marginTop="217dp"
+        android:text="@string/Sumar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/number1" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="135dp"
         android:layout_height="75dp"
-        android:layout_marginTop="38dp"
+        android:layout_marginTop="217dp"
         android:layout_marginEnd="55dp"
-        android:text="Button"
+        android:text="@string/Restar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/number2" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button3"
@@ -60,7 +61,7 @@
         android:layout_height="75dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="22dp"
-        android:text="Button"
+        android:text="@string/Multi"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
@@ -71,7 +72,7 @@
         android:layout_marginStart="31dp"
         android:layout_marginTop="22dp"
         android:layout_marginEnd="55dp"
-        android:text="Button"
+        android:text="@string/divi"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button3"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
@@ -82,10 +83,11 @@
         android:layout_height="79dp"
         android:layout_marginStart="56dp"
         android:layout_marginEnd="55dp"
-        android:layout_marginBottom="36dp"
-        android:text="Button"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        android:layout_marginBottom="136dp"
+        android:text="@string/total"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -94,9 +96,11 @@
         android:layout_height="67dp"
         android:layout_marginStart="58dp"
         android:layout_marginEnd="53dp"
-        android:layout_marginBottom="140dp"
-        android:text="TextView"
+        android:layout_marginBottom="56dp"
+        android:text="@string/resultado"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

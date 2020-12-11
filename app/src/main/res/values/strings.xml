@@ -4,4 +4,6 @@
     <string name="Restar">RESTAR</string>
     <string name="Multi">MULTIPLICAR</string>
     <string name="divi">DIVIDIR</string>
+    <string name="total">IGUAL</string>
+    <string name="resultado">Aquí el resultado.</string>
 </resources>
