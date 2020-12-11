@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="Sumar">SUMAR</string>
+    <string name="Restar">RESTAR</string>
+    <string name="Multi">MULTIPLICAR</string>
+    <string name="divi">DIVIDIR</string>
+</resources>
